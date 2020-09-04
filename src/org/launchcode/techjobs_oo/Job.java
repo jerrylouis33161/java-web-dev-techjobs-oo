@@ -100,12 +100,13 @@ public class Job {
     @Override
     public String toString() {
         String output="";
-        output+= "\n"+ "Id:" + "id" + "\n" +
-                "\n"+ "Name:" + "name" + "\n" +
-                "\n"+ "Employer:" + "employer" + "\n" +
-                "\n"+ "Location:" + "location" + "\n" +
-                "\n"+ "Position Type:" + "positionType" + "\n" +
-                "\n"+ "CoreCompetency:" + "coreCompetency" + "\n";
+        output+= "\n"+ "ID: " + getId() +
+                "\n"+ "Name: " + getName() +
+                "\n"+ "Employer: " + getEmployer() +
+                "\n"+ "Location: " + getLocation() +
+                "\n"+ "Position Type: " + getPositionType() +
+                "\n"+ "Core Competency: " + getCoreCompetency() + "\n";
         return output;
+
     }
 }
